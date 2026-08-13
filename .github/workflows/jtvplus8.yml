@@ -31,8 +31,7 @@ jobs:
       
       - name: Sync Repository
         run: |
-          git fetch origin main
-          git reset --hard origin/main
+          git pull origin main --rebase --autostash
       
       - name: Download and Update Playlist
         run: |
@@ -44,9 +43,14 @@ jobs:
       - name: Check for Changes
         id: check_changes
         run: |
-          if git diff --quiet jtvplus8.m3u; then
+          # Add file to staging area to check if it has changes
+          git add jtvplus8.m3u
+          
+          # Check if there are staged changes
+          if git diff --cached --quiet; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
             echo "⏭️  No changes detected"
+            git reset HEAD jtvplus8.m3u
           else
             echo "has_changes=true" >> $GITHUB_OUTPUT
             echo "✏️  Changes detected"
@@ -55,7 +59,6 @@ jobs:
       - name: Commit Changes
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
-          git add jtvplus8.m3u
           git commit -m "JTV PLUS Updated ✅ [$(date +'%d-%m-%Y %H:%M')]"
           echo "✔️  Changes committed"
       
@@ -82,8 +85,12 @@ jobs:
           if [ -f jtvplus8.m3u ]; then
             echo "✅ File jtvplus8.m3u exists"
             ls -lh jtvplus8.m3u
+            echo "📊 File info:"
+            file jtvplus8.m3u
+            head -5 jtvplus8.m3u
           else
             echo "❌ File jtvplus8.m3u NOT found"
+            ls -la
             exit 1
           fi
       
