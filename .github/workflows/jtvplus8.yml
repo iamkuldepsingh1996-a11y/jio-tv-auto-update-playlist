@@ -1,5 +1,4 @@
 name: JTV PLUS 8 Auto-Update
-
 on:
   schedule:
     - cron: '*/30 * * * *'  # Runs every 30 minutes
@@ -7,7 +6,6 @@ on:
   push:
     branches:
       - main
-
 jobs:
   update-file:
     runs-on: ubuntu-latest
@@ -33,19 +31,20 @@ jobs:
       
       - name: Sync Repository
         run: |
-          git pull origin main --rebase --autostash
+          git fetch origin main
+          git reset --hard origin/main
       
       - name: Download and Update Playlist
         run: |
           echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
-          curl -sS -L -o jtvplus.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/ZioMobile.m3u"
+          curl -sS -L -o jtvplus8.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/ZioMobile.m3u"
           echo "✅ Playlist downloaded successfully"
           echo "📝 File size: $(wc -c < jtvplus8.m3u) bytes"
       
       - name: Check for Changes
         id: check_changes
         run: |
-          if git diff --quiet jtvplus.m3u; then
+          if git diff --quiet jtvplus8.m3u; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
             echo "⏭️  No changes detected"
           else
@@ -78,10 +77,20 @@ jobs:
           echo "⚠️  Push failed, attempting force-with-lease..."
           git push origin main --force-with-lease
       
+      - name: Verify File
+        run: |
+          if [ -f jtvplus8.m3u ]; then
+            echo "✅ File jtvplus8.m3u exists"
+            ls -lh jtvplus8.m3u
+          else
+            echo "❌ File jtvplus8.m3u NOT found"
+            exit 1
+          fi
+      
       - name: Workflow Summary
         run: |
           echo "📊 Workflow Summary:"
           echo "  Repository: https://github.com/sportlive18/jio-tv-auto-update-playlist"
-          echo "  File: jtvplus.m3u"
+          echo "  File: jtvplus8.m3u"
           echo "  Time: $(date +'%Y-%m-%d %H:%M:%S IST')"
           echo "  Status: ✅ Complete"
