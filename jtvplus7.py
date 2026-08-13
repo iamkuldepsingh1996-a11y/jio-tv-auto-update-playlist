@@ -1,7 +1,6 @@
 import urllib.request
 import urllib.error
 url = 'https://jio.shoeblivesite.dpdns.org/'
-# We MUST use a specific User-Agent like OTT Navigator, TiviMate, or okhttp to get the playlist
 headers = {
     'User-Agent': 'OTT Navigator'
 }
