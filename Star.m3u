@@ -60,7 +60,7 @@ https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_HD1_BTS/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4
 #EXTVLCOPT:http-user-agent=Sayan10
-#EXTHTTP:{"cookie":"__hdnea__=st=1786639225~exp=1786660825~acl=/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/*~hmac=863b896a505dd87470114d98092185bc4c6d9efa6262a1309321537a0646fcc8","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1786660865~exp=1786682465~acl=/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/*~hmac=1541ffd51374507282a8af463bf0d6645e7de78c3cb0b17ea2b3796598f11469","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
 https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="E2SD" tvg-name="Star Sports 2 SD" tvg-logo="" group-title="Sports",Star Sports 2 SD
