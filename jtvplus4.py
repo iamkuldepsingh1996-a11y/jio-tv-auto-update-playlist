@@ -78,7 +78,7 @@ def main():
         m3u_content = generate_m3u(channels)
 
         # Write to a file
-        output_file = "playlist.m3u"
+        output_file = "jtvplus4.m3u"
         with open(output_file, "w", encoding="utf-8") as f:
             f.write(m3u_content)
 
