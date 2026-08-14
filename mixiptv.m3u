@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz" x-billed-message="StreamX"
-# Generated: 14 Aug 2026, 15:43:14
+# Generated: 14 Aug 2026, 16:26:02
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6752015acf084572a08dfe21796f8b45:ff823ddbe5625c35d3e93f0ed4520115
@@ -9196,25 +9196,25 @@ https://yashlivetv.fun/phpdirect.php?id=0-9-zeecafehd
 #EXTHTTP:{"cookie":"","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
 https://yashlivetv.fun/phpdirect.php?id=0-9-channel_2105335046
 
-#EXTINF:-1 tvg-id="event-0.5684506475318719" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",China vs Bahrain (ICC CWC Challenge League B 2026)
+#EXTINF:-1 tvg-id="event-0.22788617897061225" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",China vs Bahrain (ICC CWC Challenge League B 2026)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://in-mc-flive.fancode.com/mumbai/4248257_english_hls_702fea217770542_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786773292~_GO=Generated~acl=/mumbai/4248257_english_hls_702fea217770542_1ta-di_h264/*~Signature=AVMBkTWAPh_0-4AuZ8EPEPsOMN-oIVH2KuYPE3PK4hapWjw1wJ1dLAPsIQcS4VRuVwOo0UJzn-aG-X9mrsnsRJogb1kB
 
-#EXTINF:-1 tvg-id="event-0.24064195725903403" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card1.png",Singapore vs Italy (ICC CWC Challenge League B 2026)
+#EXTINF:-1 tvg-id="event-0.06704637103893873" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card1.png",Singapore vs Italy (ICC CWC Challenge League B 2026)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://in-mc-flive.fancode.com/mumbai/4248258_english_hls_c3f788f1cb70925_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786773293~_GO=Generated~acl=/mumbai/4248258_english_hls_c3f788f1cb70925_1ta-di_h264/*~Signature=AVMBkTWvYYudURw5xHsNjSJxL_rqXbq9eI1vgrcaXxOy35WRTNsMscCcjfdHxqVk1rJUJGPJpyw1NyHWeqLJe7YOQCwI
 
-#EXTINF:-1 tvg-id="event-0.5696946168059193" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248372_53031_FIN_ESP_fc-web.jpg",2026)
+#EXTINF:-1 tvg-id="event-0.9131636047298562" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248372_53031_FIN_ESP_fc-web.jpg",2026)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://in-mc-flive.fancode.com/mumbai/4248372_english_hls_081f464aaf16919_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786779986~_GO=Generated~acl=/mumbai/4248372_english_hls_081f464aaf16919_1ta-di_h264/*~Signature=AVMBkTXTjl4HHVjAyKYiGQJePiQfVcQ5B-185GlIwRQdXl7D1Ic8vwAyQs2EeMbKGBnGcclNTARK_DTPbmB1kqgUqS0H
 
-#EXTINF:-1 tvg-id="event-0.15822722487168905" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248380_53031_ISR_POR_fc-web.jpg",2026)
+#EXTINF:-1 tvg-id="event-0.07550810768926774" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248380_53031_ISR_POR_fc-web.jpg",2026)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://in-mc-flive.fancode.com/mumbai/4248380_english_hls_e041d6fa9024937_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786779988~_GO=Generated~acl=/mumbai/4248380_english_hls_e041d6fa9024937_1ta-di_h264/*~Signature=AVMBkTVcwYGLNaQqkeTYXGteztsm9I8LGtDHCiPPLyddxSLGiTAbUVpL1rmIQI7IWUNbY1Z6bEyhRdm1VzloxlAwaCAN
 
-#EXTINF:-1 tvg-id="event-0.4558663687365869" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/DTM2.png",Germany (DTM 2026)
+#EXTINF:-1 tvg-id="event-0.7770085384013233" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021743/1785703350892390_DP_World_Tour_Danish_Golf_Championship_day2_landscape_thumb.jpg",Danish Golf Championship - Day 2 - 14 Aug 2026 [ENG] - DP World Tour
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://in-mc-flive.fancode.com/mumbai/143812_english_hls_e6aef2c92332322_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1786785459~_GO=Generated~acl=/mumbai/143812_english_hls_e6aef2c92332322_1ta-di_h264/*~Signature=AVMBkTWb6fZbNmwoCtqDPaBxOGQazyRjs20CESrA1CdwW4O1NVBS1zMpBRLPKPuXbry1ddZLQ8Il70FkxxQxSU5NX6YJ
+https://sonydaimenew.akamaized.net/hls/live/20000291/Danish_G1408/ENG/std_lrh-800300010.m3u8?hdnea=exp=1786747708~acl=/*~id=77154590083424004131960404896822~hmac=4dc3ae40a64088f2ff92226556e5651f62ffa89b80d5be71674293382db7fdbf
 
 #EXTINF:-1 tvg-id="SONY SAB HD.in" group-title="Sony Liv | STREAMX" group-logo="https://i.postimg.cc/WztjDJSc/Sony-Liv-(1).jpg" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png",Sony SAB HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
