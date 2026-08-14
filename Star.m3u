@@ -52,7 +52,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Sony_Six_SD_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=df20894ec30954d3b28097c138f4cfda:ff9b6292b1cddbd11a046029cb314634
 #EXTVLCOPT:http-user-agent=Sayan10
-#EXTHTTP:{"cookie":"__hdnea__=st=1786687563~exp=1786709163~acl=/bpk-tv/Star_Sports_1_BTS/WDVLive/*~hmac=e179453152c13dafcdd99cf26f579bbf26ac62f29bc4d14582eaad6219d94267","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1786709174~exp=1786730774~acl=/bpk-tv/Star_Sports_1_BTS/WDVLive/*~hmac=2ae0a8322815c3d724fe9dbfa66dc0f09838d1d028f0473ecca12d0b8289280d","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
 https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_1_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="E1HD" tvg-name="Star Sports 1 HD" tvg-logo="" group-title="Sports",Star Sports 1 HD
