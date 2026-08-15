@@ -1,0 +1,569 @@
+version: 2.1
+
+# ============================================================================
+# ORBS & DEFINITIONS
+# ============================================================================
+
+# Reusable commands
+commands:
+  setup-git:
+    description: "Configure Git user and timezone"
+    steps:
+      - run:
+          name: Configure Git User
+          command: |
+            git config --global user.name "sportlive18"
+            git config --global user.email "271363488+sportlive18@users.noreply.github.com"
+      - run:
+          name: Set Timezone to IST
+          command: |
+            export TZ="Asia/Kolkata"
+            echo "TZ=Asia/Kolkata" >> $BASH_ENV
+
+  sync-repo:
+    description: "Sync repository with main branch"
+    steps:
+      - run:
+          name: Sync Repository
+          command: |
+            git pull origin main --rebase --autostash || true
+
+  check-and-commit:
+    description: "Check for changes and commit if needed"
+    parameters:
+      file:
+        type: string
+        description: "File to check"
+    steps:
+      - run:
+          name: Check for Changes in << parameters.file >>
+          command: |
+            git add << parameters.file >>
+            
+            if git diff --cached --quiet; then
+              echo "⏭️  No changes in << parameters.file >>"
+              git reset HEAD << parameters.file >>
+            else
+              echo "✏️  Changes detected in << parameters.file >>"
+              git commit -m "Updated << parameters.file >> ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            fi
+      - run:
+          name: Push Changes
+          command: |
+            git pull origin main --rebase --autostash || true
+            git push origin main || git push origin main --force-with-lease || true
+
+  verify-file:
+    description: "Verify file exists and show info"
+    parameters:
+      file:
+        type: string
+        description: "File to verify"
+    steps:
+      - run:
+          name: Verify << parameters.file >>
+          command: |
+            if [ -f << parameters.file >> ]; then
+              echo "✅ File << parameters.file >> exists"
+              ls -lh << parameters.file >>
+              head -3 << parameters.file >>
+            else
+              echo "❌ File << parameters.file >> NOT found"
+            fi
+
+# ============================================================================
+# JOBS - ALL WORKFLOWS
+# ============================================================================
+
+jobs:
+  # ========== STAR JOBS ==========
+  update-star:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download Star Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o Star.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Star.m3u"
+            echo "✅ Star playlist downloaded"
+      - check-and-commit:
+          file: "Star.m3u"
+      - verify-file:
+          file: "Star.m3u"
+
+  update-star2:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download Star2 Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o Star2.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Star2.m3u"
+            echo "✅ Star2 playlist downloaded"
+      - check-and-commit:
+          file: "Star2.m3u"
+      - verify-file:
+          file: "Star2.m3u"
+
+  update-star3:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download Star3 Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o Star3.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Star3.m3u"
+            echo "✅ Star3 playlist downloaded"
+      - check-and-commit:
+          file: "Star3.m3u"
+      - verify-file:
+          file: "Star3.m3u"
+
+  # ========== HOTSTAR JOBS ==========
+
+
+  update-hotstar:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download Hotstar Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o hotstar.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/hotstar.m3u"
+            echo "✅ Hotstar playlist downloaded"
+      - check-and-commit:
+          file: "hotstar.m3u"
+      - verify-file:
+          file: "hotstar.m3u"
+
+  # ========== JTV JOBS ==========
+  update-jtv:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download JTV Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o jtv.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Jio.m3u"
+            echo "✅ JTV playlist downloaded"
+      - check-and-commit:
+          file: "jtv.m3u"
+      - verify-file:
+          file: "jtv.m3u"
+
+  update-jtv2:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download JTV2 Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o jtv2.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Jio2.m3u"
+            echo "✅ JTV2 playlist downloaded"
+      - check-and-commit:
+          file: "jtv2.m3u"
+      - verify-file:
+          file: "jtv2.m3u"
+
+  update-jtv3:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download JTV3 Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o jtv3.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Jio3.m3u"
+            echo "✅ JTV3 playlist downloaded"
+      - check-and-commit:
+          file: "jtv3.m3u"
+      - verify-file:
+          file: "jtv3.m3u"
+
+  update-jtv4:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download JTV4 Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o jtv4.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Jio4.m3u"
+            echo "✅ JTV4 playlist downloaded"
+      - check-and-commit:
+          file: "jtv4.m3u"
+      - verify-file:
+          file: "jtv4.m3u"
+
+  update-jtv5:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download JTV5 Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o jtv5.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Jio5.m3u"
+            echo "✅ JTV5 playlist downloaded"
+      - check-and-commit:
+          file: "jtv5.m3u"
+      - verify-file:
+          file: "jtv5.m3u"
+
+  # ========== JTVPLUS JOBS ==========
+  update-jtvplus:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download JTV Plus Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o jtvplus.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Zio.m3u"
+            echo "✅ JTV Plus playlist downloaded"
+      - check-and-commit:
+          file: "jtvplus.m3u"
+      - verify-file:
+          file: "jtvplus.m3u"
+
+  update-jtvplus2:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download JTV Plus 2 Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o jtvplus2.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Zio2.m3u"
+            echo "✅ JTV Plus 2 playlist downloaded"
+      - check-and-commit:
+          file: "jtvplus2.m3u"
+      - verify-file:
+          file: "jtvplus2.m3u"
+
+  update-jtvplus3:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download JTV Plus 3 Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o jtvplus3.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Zio3.m3u"
+            echo "✅ JTV Plus 3 playlist downloaded"
+      - check-and-commit:
+          file: "jtvplus3.m3u"
+      - verify-file:
+          file: "jtvplus3.m3u"
+
+  update-jtvplus4:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download JTV Plus 4 Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o jtvplus4.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Zio4.m3u"
+            echo "✅ JTV Plus 4 playlist downloaded"
+      - check-and-commit:
+          file: "jtvplus4.m3u"
+      - verify-file:
+          file: "jtvplus4.m3u"
+
+  update-jtvplus5:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download JTV Plus 5 Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o jtvplus5.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Zio5.m3u"
+            echo "✅ JTV Plus 5 playlist downloaded"
+      - check-and-commit:
+          file: "jtvplus5.m3u"
+      - verify-file:
+          file: "jtvplus5.m3u"
+
+  update-jtvplus6:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download JTV Plus 6 Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o jtvplus6.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Zio6.m3u"
+            echo "✅ JTV Plus 6 playlist downloaded"
+      - check-and-commit:
+          file: "jtvplus6.m3u"
+      - verify-file:
+          file: "jtvplus6.m3u"
+
+  update-jtvplus7:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download JTV Plus 7 Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o jtvplus7.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Zio7.m3u"
+            echo "✅ JTV Plus 7 playlist downloaded"
+      - check-and-commit:
+          file: "jtvplus7.m3u"
+      - verify-file:
+          file: "jtvplus7.m3u"
+
+  update-jtvplus8:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download JTV Plus 8 Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o jtvplus8.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Zio8.m3u"
+            echo "✅ JTV Plus 8 playlist downloaded"
+      - check-and-commit:
+          file: "jtvplus8.m3u"
+      - verify-file:
+          file: "jtvplus8.m3u"
+
+  # ========== SPECIALTY JOBS ==========
+  update-mixiptv:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download Mix IPTV Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o mixiptv.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Mix.m3u"
+            echo "✅ Mix IPTV playlist downloaded"
+      - check-and-commit:
+          file: "mixiptv.m3u"
+      - verify-file:
+          file: "mixiptv.m3u"
+
+  update-playlist:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download Master Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o playlist.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/playlist.m3u"
+            echo "✅ Master playlist downloaded"
+      - check-and-commit:
+          file: "playlist.m3u"
+      - verify-file:
+          file: "playlist.m3u"
+
+  update-pocket:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout:
+          fetch-depth: 0
+      - setup-git
+      - sync-repo
+      - run:
+          name: Download Pocket Playlist
+          command: |
+            echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
+            curl -sS -L -o pocket.m3u "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Pocket.m3u"
+            echo "✅ Pocket playlist downloaded"
+      - check-and-commit:
+          file: "pocket.m3u"
+      - verify-file:
+          file: "pocket.m3u"
+
+# ============================================================================
+# WORKFLOWS - SCHEDULE ALL JOBS
+# ============================================================================
+
+workflows:
+  # Every 30 minutes - Critical files
+  schedule-every-30min:
+    triggers:
+      - schedule:
+          cron: "*/30 * * * *"
+          filters:
+            branches:
+              only:
+                - main
+    jobs:
+      - update-jtvplus
+      - update-jtvplus2
+
+  # Every hour - Star files
+  schedule-every-1hour:
+    triggers:
+      - schedule:
+          cron: "0 * * * *"
+          filters:
+            branches:
+              only:
+                - main
+    jobs:
+      - update-star
+      - update-star2
+      - update-star3
+      - update-tnt
+      - update-hotstar
+
+  # Every 2 hours - JTV & Specialty files
+  schedule-every-1hours:
+    triggers:
+      - schedule:
+          cron: "0 */1 * * *"
+          filters:
+            branches:
+              only:
+                - main
+    jobs:
+      - update-jtv
+      - update-jtv2
+      - update-jtv3
+      - update-mixiptv
+      - update-playlist
+
+  # Every 1 hours - Additional JTV Plus files
+  schedule-every-4hours:
+    triggers:
+      - schedule:
+          cron: "0 */1 * * *"
+          filters:
+            branches:
+              only:
+                - main
+    jobs:
+      - update-jtvplus3
+      - update-jtvplus4
+      - update-jtvplus5
+      - update-jtvplus6
+      - update-jtvplus7
+      - update-jtvplus8
+
+  # Every 1 hours - Additional JTV files
+  schedule-every-6hours:
+    triggers:
+      - schedule:
+          cron: "0 */1 * * *"
+          filters:
+            branches:
+              only:
+                - main
+    jobs:
+      - update-jtv4
+      - update-jtv5
+      - update-pocket
+
+  # On push to main - All files
+  on-push-main:
+    jobs:
+      - update-star
+      - update-star2
+      - update-star3
+      - update-hotstar
+      - update-jtv
+      - update-jtv2
+      - update-jtv3
+      - update-jtv4
+      - update-jtv5
+      - update-jtvplus
+      - update-jtvplus2
+      - update-jtvplus3
+      - update-jtvplus4
+      - update-jtvplus5
+      - update-jtvplus6
+      - update-jtvplus7
+      - update-jtvplus8
+      - update-mixiptv
+      - update-playlist
+      - update-pocket
