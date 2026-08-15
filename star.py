@@ -1,7 +1,7 @@
 import requests
 import json
 
-JSON_URL = "https://sonujson-devloper.vercel.app/Data/sports.json"
+JSON_URL = "https://sonujson-v3.pages.dev/Data/sports.json"
 USER_AGENT = "Sayan10"          
 OUTPUT_FILE = "Star.m3u"
 
