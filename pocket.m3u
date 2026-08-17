@@ -1415,6 +1415,13 @@ https://rtmp01.voaplus.com/hls/6x6ik312qk4grfxocfcv.m3u8
 https://tv.hiruhost.com:1936/8012/8012/playlist.m3u8
 
 #EXTINF:-1 tvg-id="SriLanka" tvg-name="Sakthi Tv" group-title="Overseas" tvg-logo="https://tataprime.files.wordpress.com/2024/03/20240330_0118443925384527961735051.png",Shakthi Tv
+https://mactom3u.vodep39240327.workers.dev/481792.m3u8?host=tv.saartv.cc&path=%2Fstalker_portal%2F&mac=00%3A1A%3A79%3A00%3A4D%3A84&serial=58E6A1E78FB02&device_id=6AD7860A1E2D78D9961D17DFA34D4C70D06CFFC1F807B8115F627648121C4339&device_id_2=6AD7860A1E2D78D9961D17DFA34D4C70D06CFFC1F807B8115F627648121C4339&stb_type=MAG270
+
+#EXTINF: -1 tvg-id="SriLanka" tvg-logo="https://i.ibb.co/wyZVVyN/1000155752-photoaidcom-cropped.png" group-title="Overseas", Rupavahini 
+https://mactom3u.vodep39240327.workers.dev/481793.m3u8?host=tv.saartv.cc&path=%2Fstalker_portal%2F&mac=00%3A1A%3A79%3A00%3A4D%3A84&serial=58E6A1E78FB02&device_id=6AD7860A1E2D78D9961D17DFA34D4C70D06CFFC1F807B8115F627648121C4339&device_id_2=6AD7860A1E2D78D9961D17DFA34D4C70D06CFFC1F807B8115F627648121C4339&stb_type=MAG270
+
+#EXTINF:-1 group-title="Overseas" tvg-logo="https://i.ibb.co/wZ0jTRny/1000151410.png",Swarnavahini
+https://mactom3u.vodep39240327.workers.dev/474890.m3u8?host=tv.saartv.cc&path=%2Fstalker_portal%2F&mac=00%3A1A%3A79%3A00%3A4D%3A84&serial=58E6A1E78FB02&device_id=6AD7860A1E2D78D9961D17DFA34D4C70D06CFFC1F807B8115F627648121C4339&device_id_2=6AD7860A1E2D78D9961D17DFA34D4C70D06CFFC1F807B8115F627648121C4339&stb_type=MAG270
 
 #EXTINF:-1 tvg-id="SriLanka" group-title="Overseas" tvg-logo="https://i.imgur.com/5cyTVRJ.png",NDTV LANKA
 https://g4wlkqqwl23a-hls-live.5centscdn.com/NDTVLANKA/1ff5fa54d14c3ff6c6bd3918bbb7db5d.sdp/playlist.m3u8
@@ -1422,31 +1429,12 @@ https://g4wlkqqwl23a-hls-live.5centscdn.com/NDTVLANKA/1ff5fa54d14c3ff6c6bd3918bb
 #EXTINF:-1 tvg-id="AsiaTV.lk@HD" tvg-logo="https://saddlebrown-jellyfish-181801.hostingersite.com/ATV-logo.png" group-title="Overseas",Asia TV
 https://stream.asiatvnet.com/1/live/master.m3u8
 
-#EXTINF: -1 tvg-id="SriLanka" tvg-logo="https://i.ibb.co/jL0YBzd/1000155753-photoaidcom-cropped.png" group-title="Overseas", Channel Eye
-
-#EXTINF: -1 tvg-id="SriLanka" tvg-logo="https://i.ibb.co/2Z90hKK/1000155754-photoaidcom-cropped.png" group-title="Overseas", TV 1
-
-#EXTINF: -1 tvg-logo="https://tataprime.files.wordpress.com/2024/04/20240411_1507147472317502579290438.png" group-title="Overseas", Star Tamil
-
-#EXTINF: -1 tvg-id="SriLanka" tvg-logo="https://i.ibb.co/wyZVVyN/1000155752-photoaidcom-cropped.png" group-title="Overseas", Rupavahini 
-
-#EXTINF: -1 tvg-id="SriLanka" tvg-logo="https://i.ibb.co/k3KjxTX/1000155760-photoaidcom-cropped.png" group-title="Overseas", Supreme TV
-
-#EXTINF: -1 tvg-id="SriLanka" tvg-logo="https://i.ibb.co/3MZYrKB/1000155761-photoaidcom-cropped.png" group-title="Overseas", Nethra TV
-
 #EXTINF: -1 tvg-id="SriLanka" tvg-logo="https://i.ibb.co/9Z2sTXy/1000155758-photoaidcom-cropped.png" group-title="Overseas", Sirasa TV
-
-#EXTINF:-1 tvg-id="SriLanka" tvg-logo="https://mobond.yuppcdn.net/peotvgo/320/280/content/common/channel/logos/ppkeyw.png" group-title="Overseas",Jaya TV
-
-#EXTINF:-1 tvg-id="SriLanka" tvg-logo="https://mobond.yuppcdn.net/peotvgo/320/280/content/common/channel/logos/twkwpt.png" group-title="Overseas",SLTMobitel Group Watch
-
-#EXTINF:-1 tvg-id="SriLanka" tvg-logo="https://mobond.yuppcdn.net/peotvgo/320/280/content/common/channel/logos/wiyovh.png" group-title="Overseas",Three Vision
+https://mactom3u.vodep39240327.workers.dev/474891.m3u8?host=tv.saartv.cc&path=%2Fstalker_portal%2F&mac=00%3A1A%3A79%3A00%3A4D%3A84&serial=58E6A1E78FB02&device_id=6AD7860A1E2D78D9961D17DFA34D4C70D06CFFC1F807B8115F627648121C4339&device_id_2=6AD7860A1E2D78D9961D17DFA34D4C70D06CFFC1F807B8115F627648121C4339&stb_type=MAG270
 
 #EXTINF:-1 tvg-id="SriLanka" tvg-logo="https://yt3.googleusercontent.com/ZaG0AcUC38WcLMe1_qaWOKwYtMfDsunrwkOpbw2bDjxz6hr8QwxjB3Vv932q-5Ic-pCzqLPN=s900" group-title="Overseas",TV Derana
 
 #EXTINF:-1 tvg-id="SriLanka" tvg-logo="https://yt3.googleusercontent.com/VYf3JNQqQGwKio4bqS7UsgA228wr5Q7UNU2fdgNE0N5KaTSUqju2roE67YL9hyYh0jub_LpO=s900" group-title="Overseas",Charana TV
-
-#EXTINF:-1 tvg-logo="https://tnltv.lk/images/logos/logo/tnltv.png" group-title="Overseas",TNL TV
 
 #EXTINF: -1 tvg-logo="https://tataprime.files.wordpress.com/2024/03/20240330_00364360783326764890909083.png" group-title="Overseas", Samugam TV
 http://ca.streamjo.com/live/samugam.m3u8
@@ -3587,7 +3575,8 @@ http://filex.homes:8080//live/87654321/12345678/507272.ts
 http://filex.homes:8080//live/87654321/12345678/507273.ts
 #EXTINF:-1  tvg-name="Cinemania" tvg-id="24.7.Dummy.us" group-title="Premium 24/7" tvg-logo="https://i.ibb.co/xFrH2L0/1000150257.jpg",Cinemania 4
 http://filex.homes:8080//live/87654321/12345678/533338.ts
-
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL MOVIES 2026" tvg-logo="http://tv.fusion4k.cc/stalker_portal/misc/logos/320/72145.png" group-title="Premium 24/7",TAMIL MOVIES 2026
+https://fusion4k.psrutube.workers.dev/481925.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TAMIL MOVIES 2025" tvg-logo="http://tv.fusion4k.cc/stalker_portal/misc/logos/320/72145.png" group-title="Premium 24/7",TAMIL MOVIES 2025
 https://fusion4k.psrutube.workers.dev/475474.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TAMIL MOVIES 2024" tvg-logo="http://tv.fusion4k.cc/stalker_portal/misc/logos/320/72146.png" group-title="Premium 24/7",TAMIL MOVIES 2024
@@ -3631,21 +3620,21 @@ https://fusion4k.psrutube.workers.dev/481012.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="4K ENGLISH OTT TAMIL DUBBED" tvg-logo="http://tv.fusion4k.cc/stalker_portal/misc/logos/320/77371.jpg" group-title="Premium 24/7",ENGLISH OTT TAMIL DUBBED
 https://fusion4k.psrutube.workers.dev/481013.m3u8
 
-#EXTINF:-1  tvg-name="Tamil cinema" tvg-id="24.7.Dummy.us" group-title="Premium 24/7" tvg-logo="https://i.ibb.co/YcKWQVq/IMG-20241103-191826.jpg",Tamil Cinema HD 3
+#EXTINF:-1  tvg-name="Tamil cinema" tvg-id="24.7.Dummy.us" group-title="Premium 24/7" tvg-logo="https://i.ibb.co/YcKWQVq/IMG-20241103-191826.jpg",Tamil Cinema HD 1
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C4:EE:CB&stream=734174&extension=ts
-#EXTINF:-1  tvg-name="Tamil cinema" tvg-id="24.7.Dummy.us" group-title="Premium 24/7" tvg-logo="https://i.ibb.co/YcKWQVq/IMG-20241103-191826.jpg",Tamil Cinema HD 4
+#EXTINF:-1  tvg-name="Tamil cinema" tvg-id="24.7.Dummy.us" group-title="Premium 24/7" tvg-logo="https://i.ibb.co/YcKWQVq/IMG-20241103-191826.jpg",Tamil Cinema HD 2
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C4:EE:CB&stream=734175&extension=ts
-#EXTINF:-1  tvg-name="Tamil cinema" tvg-id="24.7.Dummy.us" group-title="Premium 24/7" tvg-logo="https://i.ibb.co/YcKWQVq/IMG-20241103-191826.jpg",Tamil Cinema HD 5
+#EXTINF:-1  tvg-name="Tamil cinema" tvg-id="24.7.Dummy.us" group-title="Premium 24/7" tvg-logo="https://i.ibb.co/YcKWQVq/IMG-20241103-191826.jpg",Tamil Cinema HD 3
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C4:EE:CB&stream=734160&extension=ts
-#EXTINF:-1  tvg-name="Tamil cinema" tvg-id="24.7.Dummy.us" group-title="Premium 24/7" tvg-logo="https://i.ibb.co/YcKWQVq/IMG-20241103-191826.jpg",Tamil Cinema HD 6
+#EXTINF:-1  tvg-name="Tamil cinema" tvg-id="24.7.Dummy.us" group-title="Premium 24/7" tvg-logo="https://i.ibb.co/YcKWQVq/IMG-20241103-191826.jpg",Tamil Cinema HD 4
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C4:EE:CB&stream=734172&extension=ts
-#EXTINF:-1  tvg-name="Tamil cinema" tvg-id="24.7.Dummy.us" group-title="Premium 24/7" tvg-logo="https://i.ibb.co/YcKWQVq/IMG-20241103-191826.jpg",Tamil Cinema HD 7
+#EXTINF:-1  tvg-name="Tamil cinema" tvg-id="24.7.Dummy.us" group-title="Premium 24/7" tvg-logo="https://i.ibb.co/YcKWQVq/IMG-20241103-191826.jpg",Tamil Cinema HD 5
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C4:EE:CB&stream=734169&extension=ts
-#EXTINF:-1  tvg-name="Tamil cinema" tvg-id="24.7.Dummy.us" group-title="Premium 24/7" tvg-logo="https://i.ibb.co/YcKWQVq/IMG-20241103-191826.jpg",Tamil Cinema HD 8
+#EXTINF:-1  tvg-name="Tamil cinema" tvg-id="24.7.Dummy.us" group-title="Premium 24/7" tvg-logo="https://i.ibb.co/YcKWQVq/IMG-20241103-191826.jpg",Tamil Cinema HD 6
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C4:EE:CB&stream=734163&extension=ts
-#EXTINF:-1  tvg-name="Tamil cinema" tvg-id="24.7.Dummy.us" group-title="Premium 24/7" tvg-logo="https://i.ibb.co/YcKWQVq/IMG-20241103-191826.jpg",Tamil Cinema HD 9
+#EXTINF:-1  tvg-name="Tamil cinema" tvg-id="24.7.Dummy.us" group-title="Premium 24/7" tvg-logo="https://i.ibb.co/YcKWQVq/IMG-20241103-191826.jpg",Tamil Cinema HD 7
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C4:EE:CB&stream=734159&extension=ts
-#EXTINF:-1  tvg-name="Tamil cinema" tvg-id="24.7.Dummy.us" group-title="Premium 24/7" tvg-logo="https://i.ibb.co/YcKWQVq/IMG-20241103-191826.jpg",Tamil Cinema HD 10
+#EXTINF:-1  tvg-name="Tamil cinema" tvg-id="24.7.Dummy.us" group-title="Premium 24/7" tvg-logo="https://i.ibb.co/YcKWQVq/IMG-20241103-191826.jpg",Tamil Cinema HD 8
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C4:EE:CB&stream=734185&extension=ts
 
 
