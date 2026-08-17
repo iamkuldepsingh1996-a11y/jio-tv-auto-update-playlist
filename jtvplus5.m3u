@@ -7,7 +7,7 @@
     "keyId": "71719eea0bbb5319a4e854ac52ea7871",
     "key": "752ed8f45c43ed858af4c1716c05241a",
     "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_1.png",
-    "cookie": "Error: No Token found (Status 520)",
+    "cookie": "Error: No Token found (Status 404)",
     "expire_time": ""
   },
   {
@@ -73,7 +73,7 @@
     "keyId": "90d8713ba5e85d779d005b1f14a5bc8d",
     "key": "33650314fe1e945017640ba9878c5de9",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/ZeeCinema.png",
-    "cookie": "Error: No Token found (Status 520)",
+    "cookie": "Error: No Token found (Status 404)",
     "expire_time": ""
   },
   {
@@ -194,7 +194,7 @@
     "keyId": "7966a083736c5ff6b449767da10897bc",
     "key": "a11dff4dfcc5ebaff4640b8a5b2bd71e",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/ZeeBanglaHD.png",
-    "cookie": "Error: No Token found (Status 524)",
+    "cookie": "Error: No Token found (Status 404)",
     "expire_time": ""
   },
   {
@@ -227,7 +227,7 @@
     "keyId": "817e28c7f03456f1ae7383f244853b2b",
     "key": "7c03f916ec20cfd68f0a6a5735c6aaca",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/ZeeTeluguHD.png",
-    "cookie": "Error: No Token found (Status 522)",
+    "cookie": "Error: No Token found (Status 404)",
     "expire_time": ""
   },
   {
@@ -249,7 +249,7 @@
     "keyId": "97f38fde4a1e5784aac3ca8ce3668304",
     "key": "f3ac52006e0cf7e2c317eceebf5f781c",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/ZeePunjabi.png",
-    "cookie": "Error: No Token found (Status 520)",
+    "cookie": "Error: No Token found (Status 404)",
     "expire_time": ""
   }
 ]
