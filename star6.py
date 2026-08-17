@@ -72,8 +72,7 @@ def fetch_sports_channels():
             }
             star_sports_channels.append(transformed)
 
-    # Write the result to star.json
-    with open("star.json", "w", encoding="utf-8") as f:
+    with open("star2.json", "w", encoding="utf-8") as f:
         json.dump(star_sports_channels, f, indent=2, ensure_ascii=False)
 
     print(f"✅ Saved {len(star_sports_channels)} Star Sports channel(s) to star2.json")
