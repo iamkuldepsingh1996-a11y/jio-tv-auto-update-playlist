@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz" x-billed-message="StreamX"
-# Generated: 17 Aug 2026, 14:01:40
+# Generated: 17 Aug 2026, 15:00:36
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6752015acf084572a08dfe21796f8b45:ff823ddbe5625c35d3e93f0ed4520115
@@ -9196,27 +9196,27 @@ https://yashlivetv.fun/phpdirect.php?id=0-9-zeecafehd
 #EXTHTTP:{"cookie":"","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
 https://yashlivetv.fun/phpdirect.php?id=0-9-channel_2105335046
 
-#EXTINF:-1 tvg-id="event-0.14110019815894448" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247996_53005_NDT_EDR_fc-Web.png",2026)
+#EXTINF:-1 tvg-id="event-0.2548084932932049" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247996_53005_NDT_EDR_fc-Web.png",2026)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://in-mc-flive.fancode.com/mumbai/4247996_english_hls_53b379b7914499_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787039463~_GO=Generated~acl=/mumbai/4247996_english_hls_53b379b7914499_1ta-di_h264/*~Signature=AVMBkTVx8wxr1jSGliaIjWiBY41ksXgSrpg_21hXu0lGbazqySEGksh8k1u-y7GvAjHs9sEvLg3Y6FsT19m-SHqmjp4K
 
-#EXTINF:-1 tvg-id="event-0.7280021465510867" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",China vs Italy (ICC CWC Challenge League B 2026)
+#EXTINF:-1 tvg-id="event-0.6126985766723747" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",China vs Italy (ICC CWC Challenge League B 2026)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://in-mc-flive.fancode.com/mumbai/4248261_english_hls_02a9585e1762944_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787032168~_GO=Generated~acl=/mumbai/4248261_english_hls_02a9585e1762944_1ta-di_h264/*~Signature=AVMBkTUv-DM5Ls0XXaQcWtNzth3MSZiuiDWKDYjCDQlTE_GbCusPEM75lT7afrGc5LQydy1YaosvOoELrJ877akmpXgN
 
-#EXTINF:-1 tvg-id="event-0.8358849644877229" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",Singapore vs Tanzania (ICC CWC Challenge League B 2026)
+#EXTINF:-1 tvg-id="event-0.7825711235016005" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",Singapore vs Tanzania (ICC CWC Challenge League B 2026)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://in-mc-flive.fancode.com/mumbai/4248263_english_hls_9529910fe160775_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787032169~_GO=Generated~acl=/mumbai/4248263_english_hls_9529910fe160775_1ta-di_h264/*~Signature=AVMBkTXwBZXOad4j3V-hMon6ncQt5NyR4Rn6pbujUkBhVJs21zcGyzqYJabixk-LrLULWs1rhir5E8FMocoHJ4Qb3VUG
 
-#EXTINF:-1 tvg-id="event-0.9774132675727494" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248367_53031_GER_ISR_fc-web.jpg",2026)
+#EXTINF:-1 tvg-id="event-0.984545245003329" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248367_53031_GER_ISR_fc-web.jpg",2026)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://in-mc-flive.fancode.com/mumbai/4248367_english_hls_f6f26aab1384293_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787039465~_GO=Generated~acl=/mumbai/4248367_english_hls_f6f26aab1384293_1ta-di_h264/*~Signature=AVMBkTXIfwI_MGtdD8kkZnOe_48BWscfy9D_KUtyB_3-lFL6WnQ2oMrOG8u4B4iridlN8bIT4X3pOBkfA-9Etv9gBlMG
 
-#EXTINF:-1 tvg-id="event-0.433383943157609" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248384_53031_BUL_IOM_fc-web.jpg",2026)
+#EXTINF:-1 tvg-id="event-0.8463537506551602" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248384_53031_BUL_IOM_fc-web.jpg",2026)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://in-mc-flive.fancode.com/mumbai/4248384_english_hls_c738f56bcd84234_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787039466~_GO=Generated~acl=/mumbai/4248384_english_hls_c738f56bcd84234_1ta-di_h264/*~Signature=AVMBkTUstnbaykDnvgvsCkHut7_02VUJNmZqwnY4XceV_DK4hPE9PxJavAGdZPtTq-0lI3SaCrGjcqzhkEiXPc3XUyMF
 
-#EXTINF:-1 tvg-id="event-0.20064756021978514" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://images.fancode.com/aig/match/v1786951996547/4248494_CASACARDS_APP.png",East Bengal FC Women vs Rajshahi Stars FC Women (AFC Women's Champions League Qualifier 2026-27)
+#EXTINF:-1 tvg-id="event-0.9954537177547343" group-title="LIVE SPORTS | STREAMX" group-logo="https://i.postimg.cc/3xnDC1d6/live-sports.png" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/AFC-Womens-Champions-League_FC-WEB.png",East Bengal FC Women vs Rajshahi Stars FC Women (AFC Women's Champions League Qualifier 2026-27)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://in-mc-flive.fancode.com/mumbai/4248494_english_hls_fb0151743a94541_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787039468~_GO=Generated~acl=/mumbai/4248494_english_hls_fb0151743a94541_1ta-di_h264/*~Signature=AVMBkTWbeVBjy-mE6WFZn8Ae5W7sZhbvRaa9Zkmq2ISEYwklUubp03VZuaLQxuSlXXT6mfmlrnQ2Berr0CnB9APiBn4C
 
