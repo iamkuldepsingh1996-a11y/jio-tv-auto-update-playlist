@@ -1,6 +1,6 @@
 import urllib.request
 import urllib.error
-url = 'https://voot.vodep39240327.workers.dev/?voot.m3u'
+url = 'http://airteltataplaygeorolexmix.gojo45749.workers.dev'
 # We MUST use a specific User-Agent like OTT Navigator, TiviMate, or okhttp to get the playlist
 headers = {
     'User-Agent': 'OTT Navigator'
@@ -12,10 +12,10 @@ try:
         content = response.read().decode('utf-8')
         
         # Save it to a file
-        with open('voot.m3u', 'w', encoding='utf-8') as f:
+        with open('airteltv.m3u', 'w', encoding='utf-8') as f:
             f.write(content)
             
-        print("Successfully fetched the playlist and saved it to 'voot.m3u'")
+        print("Successfully fetched the playlist and saved it to 'airteltv.m3u'")
         print(f"First few lines:\n{content[:200]}...")
 except urllib.error.HTTPError as e:
     print(f"HTTP Error: {e.code}")
