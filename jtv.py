@@ -8,7 +8,7 @@ from datetime import datetime
 from urllib.parse import unquote, urlparse
 import pytz
 
-PLAYLIST_URL = "https://go.streamstar18.workers.dev/"
+PLAYLIST_URL = "https://mute-sunset-8225.streamstar18.workers.dev"
 JSON_OUTPUT = "jtv.json"
 M3U_OUTPUT = "jtv.m3u"
 
