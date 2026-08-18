@@ -54,7 +54,7 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-          git add voot.m3u
+          git add airteltv.m3u
           
           if git diff --cached --quiet; then
             echo "No changes to commit."
