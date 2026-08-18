@@ -122,9 +122,6 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1
 #EXTINF:-1 tvg-id="78" tvg-logo="https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/16-by-xfireflix.png" group-title="Sports",Star Sports 1 HD
 http://mag.diamondtv.one:80/live/unur/rtdVDBNG2z/302025.m3u8
 
-#EXTINF: -1 tvg-id="235" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/new/Star_Sports_2.png" group-title="Sports", Star Sports 2 HD
-http://astott21.xyz:80/live/XbknUJShHI/is72nB1nio/1090637.ts
-
 #EXTINF:-1 tvg-id="1191" tvg-name="dd-sports-1-0" tvg-language="HIN" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/44c5d57c-c3bd-4ea6-a367-52c4388e5287.jpg" group-title="Sports", DD Sports HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -145,9 +142,6 @@ http://skyfilex.fun:80/live/9480808/9480808/333368.ts
 #EXTINF: -1 tvg-id="Cricbuzz" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/600_144.png" group-title="Sports", Cricbuzz
 http://mag.diamondtv.one:80/live/unur/rtdVDBNG2z/302020.ts
 
-#EXTINF: -1 tvg-id="Willow.us" tvg-logo="https://i.postimg.cc/RFNMQVQM/j-Na-Ow-Lv-R-400x400-photoaidcom-cropped.png" group-title="Sports", Willow Cricket
-http://mag.tivi-one-iptv.net:80/play/live.php?mac=A0:BB:3E:07:67:9C&stream=373197&extension=ts
-
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
 #EXTINF:-1 tvg-id="WillowSports.us" tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/willow_sports_stacked_logo_full_white.png" group-title="Sports",Willow Sports
@@ -165,18 +159,12 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/GR7E6CW6C7XSQL3R36FTRRWW
 #EXTINF:-1 tvg-id="HubSports4.sg" tvg-logo="https://iili.io/FkbZuBS.jpg" group-title="Sports",Hub Sports 4
 http://line.myfreetv.xyz:80/live/F389522A5CF2/07F5172B0542/1090650.ts
 
-#EXTINF:-1 tvg-id="skysp.1" tvg-logo="https://i.postimg.cc/wxDNzRcQ/sky-sport-1.png" group-title="Sports", Sky Sport 1
-https://new8k.deadpooll.workers.dev/playlist?id=23409
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/20-by-xfireflix.png" group-title="Sports", PTV Sports
 https://s1.itcnbd.live/PTV-Sports/index.m3u8
 #http://mag.diamondtv.one:80/live/unur/rtdVDBNG2z/302016.ts
 
 #EXTINF:-1 tvg-logo="http://epg.ophion.feralhosting.com/logos/South_Africa/SuperSportCricket.za.png" group-title="Sports",Supersport Cricket
 http://premiumdedi.one:80/live/Moral6Fail/CzYx3GWW85/115338.ts
-
-#EXTINF:-1 tvg-logo="https://www.thepapare.com/wp-content/uploads/Logo-01.png" group-title="Sports",The Papare
-http://premiumtvs.space:8080/live/1yearqatar8942/950316240263/269552.ts
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/2JzlorD.png" group-title="Sports",T Sports
 http://103.185.24.134:3001/TSportsHD/index.m3u8
