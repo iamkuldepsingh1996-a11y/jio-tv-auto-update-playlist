@@ -1,4 +1,4 @@
-name: Automated JioTV by Sayan10
+name: Automated JioTV 
 on:
   schedule:
     - cron: '*/30 * * * *'
@@ -26,7 +26,7 @@ jobs:
         run: |
           export TZ="Asia/Kolkata"
           git pull origin main --rebase
-          curl -sS -L -o jtv.m3u "https://go.streamstar18.workers.dev/"
+          curl -sS -L -o jtv.m3u "https://mute-sunset-8225.streamstar18.workers.dev/"
           echo "🚀 JIOTV  Synced | IST: $(date +'%Y-%m-%d %H:%M:%S')"
           
       - name: Commit and Push
